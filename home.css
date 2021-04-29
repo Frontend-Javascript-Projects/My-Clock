@@ -20,5 +20,13 @@ body {
     top: 50%;
     left: 50%;
     transform-origin: top center;
-    /* transform: rotate(180deg); */
+}
+.minutes {
+    width: .4rem;
+    height: 4.5rem;
+    background-color: blueviolet;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform-origin: top center;
 }
