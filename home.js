@@ -15,5 +15,4 @@ function myFunction() {
     minutes.style.transform ='rotate('+degreeMinutes+'deg)'; 
     hours.style.transform ='rotate('+degreeHours+'deg)'; 
     body.style.backgroundColor = colors[Math.floor(Math.random()*10)];
-    console.log(Math.floor(Math.random()*10));
 }
