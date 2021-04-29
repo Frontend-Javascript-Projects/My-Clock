@@ -12,4 +12,5 @@ function myFunction() {
     seconds.style.transform ='rotate('+degreeSeconds+'deg)'; 
     minutes.style.transform ='rotate('+degreeMinutes+'deg)'; 
     hours.style.transform ='rotate('+degreeHours+'deg)'; 
+    console.log(Math.random()*100);
 }
