@@ -18,9 +18,7 @@ body {
     margin-top: 0.5rem;
     background-color: blueviolet;
     position: absolute;
-    /* top: 50%; */
-    left: 50%;
-    transform: translate(-50%,0%);
+    left: 4.9rem;;
     transform-origin: bottom center;
     z-index: 2;
 }
@@ -30,9 +28,7 @@ body {
     margin-top: 0.5rem;
     background-color: red;
     position: absolute;
-    /* top: 50%; */
-    left: 50%;
-    transform: translate(-50%,0%);
+    left: 4.7rem;
     transform-origin: bottom center;
     z-index: 1;;
 }
@@ -42,9 +38,7 @@ body {
     margin-top: 0.5rem;
     background-color: yellowgreen;
     position: absolute;
-    /* top: 50%; */
-    left: 50%;
-    transform: translate(-50%,0%);
+    left: 4.7rem;
     transform-origin: bottom center;
     z-index: 0;;
 }
