@@ -1,9 +1,15 @@
 setInterval(myFunction, 1000);
-    var counter = 0;
 
 function myFunction() {
-    let degree =counter;
+    let date = new Date();
+
+    let degreeSeconds = date.getSeconds()*6;
+    let degreeMinutes =date.getMinutes()*6;
+    let degreeHours =date.getHours()*30;
     const seconds = document.querySelector(".seconds");
-    seconds.style.transform ='rotate('+degree+'deg)'; 
-    counter +=6;
+    const minutes = document.querySelector(".minutes");
+    const hours = document.querySelector(".hours");
+    seconds.style.transform ='rotate('+degreeSeconds+'deg)'; 
+    minutes.style.transform ='rotate('+degreeMinutes+'deg)'; 
+    hours.style.transform ='rotate('+degreeHours+'deg)'; 
 }
