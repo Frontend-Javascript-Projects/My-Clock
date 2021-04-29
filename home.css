@@ -7,7 +7,7 @@ body {
     background-color: azure;
     border: .5rem solid blue;
     border-radius: 50%;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -15,29 +15,36 @@ body {
 .seconds {
     width: .2rem;
     height: 4.5rem;
+    margin-top: 0.5rem;
     background-color: blueviolet;
-    position: relative;
-    margin: auto;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%,0%);
     transform-origin: bottom center;
     z-index: 2;
 }
 .minutes {
     width: .6rem;
     height: 4.5rem;
+    margin-top: 0.5rem;
     background-color: red;
-    position: relative;
-    top: -50%;
-    margin: auto;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%,0%);
     transform-origin: bottom center;
     z-index: 1;;
 }
 .hours {
     width: .6rem;
     height: 4.5rem;
+    margin-top: 0.5rem;
     background-color: yellowgreen;
-    position: relative;
-    top: -100%;
-    margin: auto;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%,0%);
     transform-origin: bottom center;
     z-index: 0;;
 }
